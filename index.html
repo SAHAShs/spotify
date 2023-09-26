@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+    <title>Spotify Music</title>
+</head>
+<body>
+    <script src="script.js" type="text/javascript"></script>
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-img" src="images/download.jpeg">
+            <div class="heading"> 
+                <h1>Deep Focus </h1>
+                <p>Keep your focus and enjoy the serenity</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+
+        <div class="controls" onclick="playaudio()" id="play-pause">
+            <img class="play-button" src="images/video.png">
+        </div>
+        <div onclick="nextsong()">dsss</div>
+        <audio id="song"></audio>
+        <table>
+            <thead>
+                <th class="song-number">#</th>
+                <th class="song-name">Title</th>
+                <th class="song-artist">Artist</th>
+                <th class="song-duration"><strong>Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Tum hi ho</td>
+                <td>Arijit Singh</td>
+                <td>5:09</td>
+            </tr>
+            <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>3 PEG</td>
+                <td>chandan shetty</td>
+                <td>04:12</td>
+            </tr>
+            <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Appu Dance</td>
+                <td>Puneet Rajkumar</td>
+                <td>04:40</td>
+            </tr>
+            <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>Aylatte Veetile</td>
+                <td>Mythili</td>
+                <td>04:04</td>
+            </tr>
+            <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td>Yenammi Yenammi</td>
+                <td>Vijaya prkash</td>
+                <td>03:33</td>
+            </tr>
+            <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Blue Eyes</td>
+                <td>YoYo Honey Singh</td>
+                <td>03:41</td>
+            </tr>
+            <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td>Champion</td>
+                <td>Bravo</td>
+                <td>02:25</td>
+            </tr>
+            <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>Marate Hodenu</td>
+                <td>vasishta shimha</td>
+                <td>02:27</td>
+            </tr>
+            <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td>Dennana Dennana</td>
+                <td>Supriya Acharya</td>
+                <td>02:55</td>
+            </tr>
+            <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>Nimbhe Hanninantha Hudgi Bandlu</td>
+                <td>Juhi Chawla</td>
+                <td>02:59</td>
+            </tr> 
+        </table>
+        <script src="script.js" type="text/javascript"></script>
+    </div>
+    
+</body>
+</html>
